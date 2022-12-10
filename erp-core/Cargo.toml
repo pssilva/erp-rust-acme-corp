@@ -1,0 +1,18 @@
+[package]
+name = "erp-core"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gerenciamento_conta = { path = "../gerenciamento_conta" }
+gestao_financeira = { path = "../gestao_financeira" }
+gestao_fabricacao = { path = "../gestao_fabricacao" }
+gerenciamento_producao = { path = "../gerenciamento_producao" }
+gestao_transporte = { path = "../gestao_transporte" }
+gerenciamento_vendas_distribuicao = { path = "../gerenciamento_vendas_distribuicao" }
+gestao_recursos_humanos = { path = "../gestao_recursos_humanos" }
+gestao_cadeia_abastecimento = { path = "../gestao_cadeia_abastecimento" }
+gestao_relacionamento_cliente = { path = "../gestao_relacionamento_cliente" }
+e_business = { path = "../e_business" }

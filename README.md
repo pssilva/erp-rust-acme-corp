@@ -40,7 +40,7 @@ Considerando que o seu ambinete SDK já esteja preparado.
 1. Clonar: `git https://github.com/pssilva/erp-rust-acme-corp.git`;
 2. Acessar: `cd erp-rust-acme-corp`;
 3. Buld Package: `cargo build`;
-4. Executar a aplicação: `./target/debug/erp_rust_acme_corp`;
+4. Executar a aplicação: `cargo run` ou `./target/debug/erp_rust_acme_corp`;
 
 ### UI Temas 
 O projeto será adaptado para os seguintes temas (themes):

@@ -1,6 +1,17 @@
 [workspace]
 
 members = [
+    "erp-core",
+    "gerenciamento_conta",
+    "gestao_financeira",
+    "gestao_fabricacao",
+    "gerenciamento_producao",
+    "gestao_transporte",
+    "gerenciamento_vendas_distribuicao",
+    "gestao_recursos_humanos",
+    "gestao_cadeia_abastecimento",
+    "gestao_relacionamento_cliente",
+    "e_business"
 ]
 
 
