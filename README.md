@@ -37,9 +37,9 @@ No contexto: A pouco tempo a empresa Acme Corporation após muita deliberação 
 
 Considerando que o seu ambinete SDK já esteja preparado.
 
-1. Clonar: `git https://github.com/pssilva/erp-rust-acme-corp.git`;
+1. Clonar: `git clone https://github.com/pssilva/erp-rust-acme-corp.git`;
 2. Acessar: `cd erp-rust-acme-corp`;
-3. Buld Package: `cargo build`;
+3. Construir o projeto: `cargo build`;
 4. Executar a aplicação: `cargo run` ou `./target/debug/erp_rust_acme_corp`;
 
 ### UI Temas 
