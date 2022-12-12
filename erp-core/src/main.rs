@@ -1,3 +1,10 @@
+
+pub mod controllers;
+pub mod models;
+pub mod views;
+
+use crate::controllers::*;
+
 use std::io;
 use gerenciamento_conta;
 use gestao_financeira;
@@ -10,12 +17,14 @@ use gestao_cadeia_abastecimento;
 use gestao_relacionamento_cliente;
 use e_business;
 
+
+
 fn main() {
+    controller::health_check();
+    
     println!("Hello, ERP Rust ACME Corp (erp-rust-acme-corp)!");
 
     let _rst = health_check_all();
-
-    
 
 }
 

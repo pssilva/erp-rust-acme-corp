@@ -1,6 +1,13 @@
+pub mod controllers;
+pub mod models;
+pub mod views;
+
+use crate::controllers::*;
 
 pub fn health_check() -> bool {
 
+    controller::health_check();
+    
     println!("");
     println!("=============================================");
     println!("Módulo :: Gestão de Contas :: Não implementado!!");
